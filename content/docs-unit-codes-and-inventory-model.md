@@ -25,7 +25,7 @@ Four new pages under `developers/` formalize the inventory model that the engine
 
 ### Assembly-Required Units
 
-Explains why Gamehub prefers `assembly_required` over the 1978 manual's phrase "operational unit." The manual uses "operational" and "assembled" interchangeably — the new docs pin down the mapping: `assembly_required = true` means the unit can exist in either an assembled (usable) or unassembled (stored, needs labor) state. Units with `assembly_required = false` are always considered assembled.
+Explains why EC prefers `assembly_required` over the 1978 manual's phrase "operational unit." The manual uses "operational" and "assembled" interchangeably — the new docs pin down the mapping: `assembly_required = true` means the unit can exist in either an assembled (usable) or unassembled (stored, needs labor) state. Units with `assembly_required = false` are always considered assembled.
 
 ### Ship and Colony Inventory
 
@@ -41,7 +41,7 @@ Three inventory-state invariants for implementation:
 
 ### Terminology
 
-A canonical term list mapping Gamehub's developer vocabulary to the 1978 manual's phrasing. Covers assembly terms (`assembled`, `unassembled`, `stored non-assembly`), inventory roles (`installed inventory`, `cargo inventory`), and quantity fields (`quantity_assembled`, `quantity_disassembled`).
+A canonical term list mapping EC's developer vocabulary to the 1978 manual's phrasing. Covers assembly terms (`assembled`, `unassembled`, `stored non-assembly`), inventory roles (`installed inventory`, `cargo inventory`), and quantity fields (`quantity_assembled`, `quantity_disassembled`).
 
 ---
 
